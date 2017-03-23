@@ -2,12 +2,16 @@
     box-sizing: border-box;
 }
 img {
-    width: 100%;
+    max-width: 400px;
 }
 
 body {
     letter-spacing: 1.3px;
     font-family: 'Lato', sans-serif !important;
+}
+
+.column {
+    padding: 1.5rem;
 }
 
 .nav-dark {
@@ -22,9 +26,13 @@ body {
 }
 
 .title-more-space {
-    line-height: 2;
+    line-height: 1.4;
 }
 
 .skill {
     margin-right: 10px;
+}
+
+.hero {
+    background-color: rgba(122, 143, 155, 0.5);
 }

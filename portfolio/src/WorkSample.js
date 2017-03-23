@@ -11,12 +11,16 @@ class WorkSample extends Component {
     }
 
   render() {
-    return <div className="column is-one-third">
-            <div className="section">
-                {this.props.title}<br/>
-                {this.props.screenshot}
+    return <div>
+                <div className="columns">
+                    <div className="column is-4">
+                        {this.props.title} <br/> {this.props.description}
+                    </div>
+                    <div className="column is-8">
+                        {this.props.screenshot}
+                    </div>
+                </div> 
             </div>
-    </div>
   }
 }
 
