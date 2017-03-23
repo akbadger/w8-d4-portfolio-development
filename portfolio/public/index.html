@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" />
+    <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
+    <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+    <title>React App</title>
+</head>
+
+<body>
+    <nav class="nav nav-dark">
+        <div class="nav-left">
+            <h2 class="nav-item">PORTFOLIO</h2>
+        </div>
+
+        <div class="nav-center">
+            <a class="nav-item">
+                <span class="icon">
+        <i class="fa fa-github"></i>
+      </span>
+            </a>
+            <a class="nav-item">
+                <span class="icon">
+        <i class="fa fa-twitter"></i>
+      </span>
+            </a>
+        </div>
+
+        <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
+        <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
+        <span class="nav-toggle">
+    <span>About</span>
+        <span>Work</span>
+        <span>Contact</span>
+        </span>
+
+        <!-- This "nav-menu" is hidden on mobile -->
+        <!-- Add the modifier "is-active" to display it on mobile -->
+        <div class="nav-right nav-menu">
+            <a class="nav-item" href="#work">ABOUT</a>
+            <a class="nav-item" href="#work">WORK</a>
+            <a class="nav-item" href="#work">CONTACT</a>
+        </div>
+    </nav>
+
+
+    <section class="hero is-medium">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <h1 class="title title-more-space">
+                   FRONT END WEB DEVELOPER
+                </h1>
+                <h2 class="subtitle">
+                    <span class="skill">HTML</span> 
+                    <span class="skill">CSS</span>  
+                    <span class="skill">BOOTSTRAP</span>  
+                    <span class="skill">JAVASCRIPT</span>
+                    <span class="skill">REACT</span>
+                    <span class="skill">NODE</span>
+                </h2>
+            </div>
+        </div>
+    </section>
+
+    <div id="root"></div>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="content has-text-centered">
+                <p>
+                    <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
+                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
+                </p>
+                <p>
+                    <a class="icon" href="https://github.com/jgthms/bulma">
+                        <i class="fa fa-github"></i>
+                    </a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>

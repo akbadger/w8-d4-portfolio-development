@@ -1,0 +1,30 @@
+* {
+    box-sizing: border-box;
+}
+img {
+    width: 100%;
+}
+
+body {
+    letter-spacing: 1.3px;
+    font-family: 'Lato', sans-serif !important;
+}
+
+.nav-dark {
+    background-color: #47474C;
+    color: white;
+}
+
+.nav-dark a, 
+.nav-dark a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.title-more-space {
+    line-height: 2;
+}
+
+.skill {
+    margin-right: 10px;
+}
