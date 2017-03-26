@@ -5,11 +5,11 @@ class Work extends Component {
   render() {
     return <div>
                
-                    <WorkSample title="SAMPLE 1" screenshot="/img/cactus.jpg" description="Cardigan bitters ugh pitchfork. Green juice ugh poutine retro. Ethical bushwick cray, yr hot chicken fap normcore. Beard next level kinfolk, hashtag venmo glossier chillwave chicharrones hammock man bun raclette vexillologist. "/>
+                    <WorkSample title="CHIRP" screenshot="/img/chirp.png" description="Messaging app - much like Twitter.  Languages/Libraries used: HTML5, CSS3, Bootstrap, Javascript"/>
 
-                    <WorkSample title="SAMPLE 1" screenshot="/img/mountains.jpg" description="Cardigan bitters ugh pitchfork. Green juice ugh poutine retro. Ethical bushwick cray, yr hot chicken fap normcore. Beard next level kinfolk, hashtag venmo glossier chillwave chicharrones hammock man bun raclette vexillologist. "/>
+                    <WorkSample title="CREATE & DESIGN CO" screenshot="/img/create-and-design.png" description="Customized blogging platform.  Languages/Libraries used: HTML5, CSS3, Bootstrap"/>
 
-                    <WorkSample title="SAMPLE 1" screenshot="/img/lily.jpg" description="Cardigan bitters ugh pitchfork. Green juice ugh poutine retro. Ethical bushwick cray, yr hot chicken fap normcore. Beard next level kinfolk, hashtag venmo glossier chillwave chicharrones hammock man bun raclette vexillologist."/>
+                    <WorkSample title="FORMULAYT" screenshot="./img/cactus.jpg" description="Built a mock-up airline eCommerce website.  Languages/Libraries used: HTML5, CSS3, Bootstrap, Javascript, jQuery"/>
                     
                
             </div>

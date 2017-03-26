@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 img {
-    max-width: 400px;
+    max-width: 600px;
 }
 
 body {
@@ -34,5 +34,20 @@ body {
 }
 
 .hero {
+    background: url("http://unsplash.it/600/?blur?image=426");
+    background-size: cover;
+}
+
+.subtitle {
+    margin-right: 30px;
+}
+
+.subtitle:last-child {
+    margin-right: 0px;
+}
+
+#contact {
     background-color: rgba(122, 143, 155, 0.5);
+    font-size: 18px;
+    padding: 50px;
 }

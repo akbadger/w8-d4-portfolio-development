@@ -13,11 +13,11 @@ class WorkSample extends Component {
   render() {
     return <div>
                 <div className="columns">
-                    <div className="column is-4">
+                    <div className="column is-4 is-offset-1">
                         {this.props.title} <br/> {this.props.description}
                     </div>
-                    <div className="column is-8">
-                        {this.props.screenshot}
+                    <div className="column is-4 is-offset-1">
+                        <img src={this.props.screenshot}/>
                     </div>
                 </div> 
             </div>
