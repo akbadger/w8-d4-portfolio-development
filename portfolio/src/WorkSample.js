@@ -12,12 +12,10 @@ class WorkSample extends Component {
 
   render() {
     return <div>
-                <div className="columns">
-                    <div className="column is-4 is-offset-1">
-                        {this.props.title} <br/> {this.props.description}
-                    </div>
-                    <div className="column is-4 is-offset-1">
-                        <img src={this.props.screenshot}/>
+                <div className="column">
+                    <div className="column">
+                         <img src={this.props.screenshot} alt="sample screenshot"/>
+                        <h2>{this.props.title}</h2> <br/> {this.props.description}
                     </div>
                 </div> 
             </div>

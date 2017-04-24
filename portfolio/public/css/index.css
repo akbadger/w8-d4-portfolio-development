@@ -2,12 +2,20 @@
     box-sizing: border-box;
 }
 img {
-    max-width: 600px;
+    width: 100%;
 }
 
 body {
     letter-spacing: 1.3px;
     font-family: 'Lato', sans-serif !important;
+    /*background-image: linear-gradient(rgba(12, 155, 122, 0.6), rgba(200, 220, 210, 0.6)), url(/img/16.jpg);
+    background-size: cover;*/
+    background-color: #f1f1f1;
+}
+
+.name {
+    font-size: 80px;
+    /*font-family: 'Nobile', sans-serif;*/
 }
 
 .column {
@@ -15,18 +23,19 @@ body {
 }
 
 .nav-dark {
-    background-color: #47474C;
-    color: white;
+    background-color: white;
+    color: black;
 }
 
 .nav-dark a, 
 .nav-dark a:hover {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .title-more-space {
     line-height: 1.4;
+    color: #f1f1f1;
 }
 
 .skill {
@@ -34,7 +43,8 @@ body {
 }
 
 .hero {
-    background: url("http://unsplash.it/600/?blur?image=426");
+    background-image: linear-gradient(rgba(12, 155, 122, 0.6), rgba(200, 220, 210, 0.6)), url(/img/16.jpg);
+    /*background: black;*/
     background-size: cover;
 }
 
@@ -50,4 +60,16 @@ body {
     background-color: rgba(122, 143, 155, 0.5);
     font-size: 18px;
     padding: 50px;
+}
+.white {
+    color: white;
+}
+
+.img-smaller {
+    width: 50px;
+}
+
+.img-small {
+    width: 70px;
+    color: #5f6060;
 }

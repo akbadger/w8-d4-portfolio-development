@@ -7,6 +7,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.4.0/css/bulma.min.css" />
     <link rel="shortcut icon" href="%PUBLIC_URL%/favicon.ico">
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nobile:700" rel="stylesheet">
     <script src="https://use.fontawesome.com/3c60607828.js"></script>
     <link rel="stylesheet" href="css/index.css">
 
@@ -16,15 +17,10 @@
 <body>
     <nav class="nav nav-dark">
         <div class="nav-left">
-            <h2 class="nav-item">AUBREY BADGER</h2>
+            <h2 class="nav-item">AUBREY BADGER MARTIN</h2>
         </div>
 
-        <!--<div class="nav-center">
-            <a class="nav-item" href="?">ABOUT</a>
-            <a class="nav-item" href="?">WORK</a>
-            <a class="nav-item" href="?">RESUME</a>
-            <a class="nav-item" href="?">CONTACT</a>
-        </div>-->
+    
 
         <!-- This "nav-toggle" hamburger menu is only visible on mobile -->
         <!-- You need JavaScript to toggle the "is-active" class on "nav-menu" -->
@@ -37,7 +33,7 @@
 
         <!-- This "nav-menu" is hidden on mobile -->
         <!-- Add the modifier "is-active" to display it on mobile -->
-        <div class="nav-right nav-menu">
+        <div class="nav-center nav-menu">
             <a class="nav-item" href="#work">ABOUT</a>
             <a class="nav-item" href="#work">WORK</a>
             <a class="nav-item" href="#work">RESUME</a>
@@ -45,57 +41,63 @@
         </div>
     </nav>
 
-
-    <section class="hero is-medium">
-        <div class="hero-body">
-            <div class="container has-text-centered">
-                <div class="title title-more-space">
-                    CREATIVE &amp; RESPONSIVE WEB DEVELOPMENT </div>
+<section class="hero is-medium">
+    <div class="hero-body">
+        <div class="container has-text-centered">
+            <div class="columns">
+                <div class="column">
+                    <div class="title title-more-space name">
+                        <hr/>
+                        AUBREY BADGER MARTIN</div>
+                        <hr/>
+                        <h3 class="title is-4 subtitle white">WEB DEVELOPER WITH A PASSION FOR MINIMALIST DESIGN &amp; EXQUISITE CODE</h3>
                     <span class="title is-4 title-more-space subtitle">HTML</span>
                     <span class="title is-4 title-more-space subtitle">CSS</span>
                     <span class="title is-4 title-more-space subtitle">JAVASCRIPT</span>
                     <span class="title is-4 title-more-space subtitle">REACT</span>
-                
+                </div>
             </div>
         </div>
+    </div>
+</section>
+    <br/>
+    <section class="about">
+        <h1 class="title has-text-centered">ABOUT</h1>
+        
     </section>
-    <hr/>
-    <section>
+
+    
+    <div class="has-text-centered title">RECENT PROJECTS</div>
+    <div id="root"></div>
+
+<section>
         <div class="columns">
             <div class="column is-half is-offset-one-quarter has-text-centered">
-                <h1 class="title">SKILLS &amp; EXPERTISE</h1>
+                <h1 class="title">SKILLS</h1>
             </div>
         </div>
         <div class="columns">
             <div class="column is-one-third has-text-centered">
                 <p class="title is-5">FRONT END DEVELOPMENT</p>
+                <!--<img src="/img/html-icon.png" alt="HTML icon" class="img-small"/>-->
+                <img src="/img/css-icon.png" alt="CSS icon" class="img-small"/>&nbsp;
+                <!--<img src="/img/js-icon.png" alt="Javascript icon" class="img-smaller"/>-->
+                <br/>
                 <p>Efficient and organized use of languages (HTML5, CSS3, &amp; Javascript) and libraries (Bootstrap, Bulma, jQuery, and React) creates beautifully functional user experiences.</p>
             </div>
             <div class="column is-one-third has-text-centered">
-                <p class="title is-5">RESPONSIVE DEVELOPMENT</p>
-                
+                <p class="title is-5">RESPONSIVE DESIGN</p>
+                <img src="/img/responsive-design.png" alt="responsive design icon" class="img-small"/>
                 <p>Mobile-first responsive design ensures websites are beautiful and fluid on any screen or device.</p>
             </div>
             <div class="column is-one-third has-text-centered">
-                <p class="title is-5">DESIGN</p>
-                
+                <p class="title is-5">MINIMALISM</p>
+                <img src="/img/magic-wand.png" alt="magic wand icon" class="img-small"/>
                 <p>Minimalist approach to layout means less noise to filter through and more intuitive interaction. </p>
             </div>
         </div>
 
     </section>
-    <hr/>
-    <div class="has-text-centered title">RECENT PROJECTS</div>
-    <div id="root"></div>
-
-    <!--<div class="columns" id="contact">
-        <div class="column is-half is-offset-one-quarter has-text-centered">-->
-    <!--<div class="title">CONTACT</div>
-            <i class="fa fa-linkedin" aria-hidden="true"></i>
-            <i class="fa fa-instagram" aria-hidden="true"></i>
-            <i class="fa fa-github" aria-hidden="true"></i>-->
-    <!--</div>
-    </div>-->
     <footer class="footer">
         <div class="container">
             <div class="content has-text-centered">
@@ -103,16 +105,6 @@
                 <i class="fa fa-linkedin" aria-hidden="true"></i>
                 <i class="fa fa-instagram" aria-hidden="true"></i>
                 <i class="fa fa-github" aria-hidden="true"></i>
-                <!--<p>
-                    Built by Aubrey Badger using
-                    <strong>Bulma</strong> by <a href="http://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-                    <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC ANS 4.0</a>.
-                </p>
-                <p>
-                    <a class="icon" href="https://github.com/jgthms/bulma">
-                        <i class="fa fa-github"></i>
-                    </a>
-                </p>-->
             </div>
         </div>
     </footer>
