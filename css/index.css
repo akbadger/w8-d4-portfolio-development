@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+}
+/*img {
+    width: 100%;
+}*/
+
+body {
+    letter-spacing: 1.3px;
+    font-family: 'Lato', sans-serif !important;
+    /*background-image: linear-gradient(rgba(12, 155, 122, 0.6), rgba(200, 220, 210, 0.6)), url(/img/16.jpg);
+    background-size: cover;*/
+    background-color: #f1f1f1;
+}
+
+.name {
+    font-size: 80px;
+    color: #3c3c3d;
+    /*font-family: 'Nobile', sans-serif;*/
+}
+
+.column {
+    padding: 1.5rem;
+}
+
+.nav-dark {
+    background-color: #3c3c3d;
+    color: white;
+}
+
+.nav-dark a, 
+.nav-dark a:hover {
+    text-decoration: none;
+    color: white;
+}
+
+.title-more-space {
+    line-height: 1.4;
+    color: #f1f1f1;
+}
+
+.skill {
+    margin-right: 10px;
+}
+
+.hero {
+    /*background-image: linear-gradient(rgba(200, 220, 210, 0.6), rgba(200, 220, 210, 0.6)), url(/img/mud.jpg);*/
+    /*background-image: url(/img/mud.jpg);*/
+    background-image: url(https://unsplash.it/g/800/?blur);
+    /*background: black;*/
+    background-size: cover;
+}
+
+.subtitle {
+    margin-right: 30px;
+}
+
+.subtitle:last-child {
+    margin-right: 0px;
+}
+
+#contact {
+    background-color: rgba(122, 143, 155, 0.5);
+    font-size: 18px;
+    padding: 50px;
+}
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.img-smaller {
+    width: 50px;
+}
+
+.img-small {
+    width: 70px;
+    color: #5f6060;
+}
+
+.footer {
+    background: #3c3c3d;
+}
+
+.is-bold {
+    font-weight: 700;
+}
+
+.github-small {
+    margin-top: 4px;
+    padding-left: 5px;
+}
+
+
+
