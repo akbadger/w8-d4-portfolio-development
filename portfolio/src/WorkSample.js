@@ -12,13 +12,11 @@ class WorkSample extends Component {
 
   render() {
     return <div>
-                <div className="column">
-                    <div className="column">
-                         <img src={this.props.screenshot} alt="sample screenshot"/>
-                        <h2>{this.props.title}</h2> <br/> {this.props.description}
+                    <div className="column is-half is-offset-one-quarter has-text-centered">
+                         <img src={this.props.screenshot} alt="sample screenshot" className="screenshot"/>
+                        <span>{this.props.title}<a target="_blank" href={this.props.github}><i className="fa fa-github github-small" aria-hidden="true"></i></a></span><br/> {this.props.description}<br/>
                     </div>
                 </div> 
-            </div>
   }
 }
 
