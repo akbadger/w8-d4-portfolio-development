@@ -44,10 +44,8 @@ body {
 }
 
 .hero {
-    /*background-image: linear-gradient(rgba(200, 220, 210, 0.6), rgba(200, 220, 210, 0.6)), url(/img/mud.jpg);*/
-    /*background-image: url(/img/mud.jpg);*/
-    background-image: url(https://unsplash.it/g/800/?blur);
-    /*background: black;*/
+    /*background: linear-gradient(rgba(200, 220, 210, 0.6), rgba(200, 220, 210, 0.6))*/
+    background-image: url(/img/geometric-background-dark.jpg);
     background-size: cover;
 }
 
